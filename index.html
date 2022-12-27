@@ -15,10 +15,107 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <link rel="stylesheet" href="Dossier_CSS/Style.css">
+        <link rel="stylesheet" href="Dossier_CSS/StyleMedias.css">
         <title>Booki</title>
     </head>
 
     <body>
-    
+        <div id="Bloc_de_Page">
+            <header>
+                <div>
+                    <nav id="Flex-Between">
+                        <div id="Logo">
+                            <img src="Images/logo/Booki.png" alt="Logo de Booki">
+                        </div>
+                        <div id="Flex-Around" class="Espace-Menu">
+                            <div class="CadreBord-Lien-Menu Bord-Lien-Menu Flex-Center">
+                                <span><a class="ColorBlue-Lien-Menu TextDeco-Lien-Menu" href="#">Hébergements</a></span>
+                            </div>
+                            <div class="CadreBord-Lien-Menu Bord-Lien-Menu Flex-Center">
+                                <span><a class="ColorBlack-Lien-Menu TextDeco-Lien-Menu" href="#">Activités</a></span>
+                            </div>
+                        </div>
+                    </nav>
+                    
+                    <section>
+                        <div>
+                            <h1 class="TexteGras">Trouvez votre hébergement pour des vacances de reve</h1>
+                            <p class="Margin-P">En plein centre-ville ou en plein nature</p>
+                        </div>
+                        
+                        <div class="Bord-ZoneSearch Flex-Center">
+
+                            <div class="IconeSearch  Flex-Center">
+                                <i class="fa-solid fa-location-dot fa-lg"></i>
+                            </div>
+
+                            <div >
+                                <input class="Bord-Search Flex-Center" type ="search" value ="Marseille, France" placeholder ="Ville, Pays">
+                            </div>
+
+                            <div>
+                                <button class=" styled ButtonSearch .TexteGras Flex-Center" type="button">
+                                    <span class="Search-mobile"><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                                    <span class="Search-desktop"> Recherche</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="Filtre-FlexCenter MarginFiltre">
+                            <div class="FiltreTitre-Div">
+                                <h2>Filtres</h2>
+                            </div>
+
+                            <div class="filtre-Icone-Texte Flex-Center">
+                                 <div>
+                                    <i class="fa-solid fa-money-bill-wave fa-lg Filtre-Icone"></i>
+                                </div>
+                                <div class="filtre-Texte">
+                                    <span>Économique</span>
+                                </div>
+                            </div>
+
+                            <div class="filtre-Icone-Texte Flex-Center">
+                                <div>
+                                    <i class="fa-solid fa-child fa-lg Filtre-Icone"></i>
+                                </div>
+                                <div class="filtre-Texte">
+                                    <span>Familial</span>
+                                </div>
+                            </div>
+                            
+                            <div class="filtre-Icone-Texte Flex-Center">
+                                <div>
+                                    <i class="fa-solid fa-heart fa-lg Filtre-Icone"></i>
+                                </div>
+                                <div class="filtre-Texte">
+                                    <span>Romantique</span>
+                                </div>
+                            </div>
+
+                            <div class="filtre-Icone-Texte Flex-Center">
+                                <div>
+                                    <i class="fa-solid fa-dog fa-lg Filtre-Icone"></i>
+                                </div>
+                                <div class="filtre-Texte">
+                                    <span>Animaux autorisés</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Filtre-FlexCenter MarginInfo">
+                            <div class="IconeInfo Flex-Center">
+                                <i class="fas fa-info fa-xs fa-lg"></i>
+                            </div>
+                            <div>
+                                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                            </div>
+                        </div>
+                    </section> 
+                </div>          
+            </header>
+
+
+        </div>
     </body>
 </html>

@@ -1,0 +1,199 @@
+/*******Partie Generale*******/
+html, body
+{
+    font-family: Raleway, Arial, sans-serif;
+}
+
+#Bloc_de_Page
+{
+    width: 1400px;
+    margin: auto;
+}
+
+/*******Partie Header (en-tete)*******/
+/*********Partie Nav********/
+.Flex-Center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Flex-Between
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Flex-Around
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Espace-Menu
+{
+    width: 35%;
+}
+
+.ColorBlue-Lien-Menu
+{
+    color: #0065FC;
+}
+
+.ColorBlack-Lien-Menu
+{
+    color: #000000;
+}
+
+.TextDeco-Lien-Menu
+{
+    text-decoration: none;
+}
+
+#Logo img
+{
+    width: 61.09px;
+    height: 19px;
+}
+
+.CadreBord-Lien-Menu
+{
+    width: 135px;
+    height: 50px;
+}
+
+.Bord-Lien-Menu:active
+{
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+
+.Bord-Lien-Menu a:hover
+{
+    background: linear-gradient(to top, rgba(177, 29, 214, 0.5) 0%, 
+    rgba(177, 29, 214, 0.5) 10%, transparent 10.01%)
+}
+
+/*********Partie Recherche et Titre niveau1********/
+.TexteGras
+{
+    font-weight: bold;
+}
+
+.h1
+{
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.Margin-P
+{
+    margin-top: -10px;
+}
+
+.Bord-ZoneSearch
+{
+    width: 400px;
+    border-radius: 15px;
+    border-radius: 0.5px #F2F2F2;
+}
+.IconeSearch
+{
+    height: 50px;
+    width: 60px;
+    border-radius: 15px 0px 0px 15px;
+    background: #F2F2F2;
+}
+
+.Bord-Search
+{
+    height: 50px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    padding-left: 10px;
+    border-color: #F2F2F2;
+}
+
+.ButtonSearch
+{
+    background: #0065FC;
+    color: #FFFFFF;
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+}
+
+/*********Partie Filtre********/
+.Filtre-FlexCenter
+{
+    display: flex;
+    align-items: center;
+}
+
+.MarginFiltre
+{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.FiltreTitre-Div
+{
+    margin-right: 25px;
+}
+
+.filtre-Icone-Texte
+{
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 30px;
+    border: 3px solid #F2F2F2;
+}
+
+.Filtre-Icone
+{
+    color: #0065FC;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.filtre-Texte
+{
+    padding-right: 15px;
+    padding-left: 5px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.h2
+{
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.IconeInfo
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 35px;
+    margin-right: 10px;
+    border: 2px solid #F2F2F2;
+    color: #0065FC;
+}
+
+.MarginInfo
+{
+    margin-top: -25px;
+}
