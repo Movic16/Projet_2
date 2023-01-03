@@ -472,3 +472,42 @@ h6
     line-height: 19px;
     color: #000000;
 }
+
+/*******Partie Footer (pied de page)*******/
+.Footer-Flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Footer-Titre
+{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.Footer-P
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none #000000;
+}
+
+.Support-Footer
+{
+    width: 1200px;
+    height: 225px;
+    margin-top: 70px;
+    background: #F2F2F2;
+}
+
+.Rien
+{
+    color: #F2F2F2;
+    visibility: hidden;
+}
