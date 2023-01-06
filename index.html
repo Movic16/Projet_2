@@ -15,8 +15,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <link rel="stylesheet" href="Dossier_CSS/Style.css">
-        <link rel="stylesheet" media="screen and (max-width: 768px)" href="Dossier_CSS/Style_Tabl.css">
-        <link rel="stylesheet" media="screen and (max-width: 1280px)" href="Dossier_CSS/Style_Mobile.css">
+
+        <link rel="stylesheet" media="screen and (max-width: 992px) and (min-width: 767px)" 
+        href="Dossier_CSS/Style_Tabl.css">
+
+        <link rel="stylesheet" media="screen and (max-width: 768px)" 
+        href="Dossier_CSS/Style_Mobile.css">
+
         <title>Booki</title>
     </head>
 
@@ -28,78 +33,84 @@
                             <img src="Images/logo/Booki.png" alt="Logo de Booki">
                         </div>
 
-                        <div id="Flex-Around" class="Espace-Menu">
+                        <div id="Flex-Around" class="Espace-Menu Margin-Navi-Mobil">
                             <div class="CadreBord-Lien-Menu Bord-Lien-Menu Flex-Center">
-                                <span><a class="ColorBlue-Lien-Menu TextDeco-Lien-Menu" href="#">Hébergements</a></span>
+                                <span><a class="ColorBlue-Lien-Menu TextDeco-Lien-Menu Text-Nav-Mobil" href="#">Hébergements</a></span>
                             </div>
                             <div class="CadreBord-Lien-Menu Bord-Lien-Menu Flex-Center">
-                                <span><a class="ColorBlack-Lien-Menu TextDeco-Lien-Menu" href="#">Activités</a></span>
+                                <span><a class="ColorBlack-Lien-Menu TextDeco-Lien-Menu Text-Nav-Mobil" href="#">Activités</a></span>
                             </div>
                         </div>
                     </nav>
                     
                     <section>
-                        <div>
+                        <div class="Titre-H1_P">
                             <h1 class="TexteGras">Trouvez votre hébergement pour des vacances de reve</h1>
                             <p class="Margin-P">En plein centre-ville ou en plein nature</p>
                         </div>
                         
-                        <div class="Bord-ZoneSearch Flex-Center">
+                        <div class="Bord-ZoneSearch Flex-Center Zone-Recherch-Centre">
 
                             <div class="IconeSearch  Flex-Center">
                                 <i class="fa-solid fa-location-dot fa-lg"></i>
                             </div>
 
-                            <div >
+                            <div>
                                 <input class="Bord-Search Flex-Center" type ="search" value ="Marseille, France" placeholder ="Ville, Pays">
                             </div>
 
                             <div>
-                                <button class="favorite styled ButtonSearch .TexteGras Flex-Center" type="button">
+                                <button class="favorite styled ButtonSearch TexteGras Flex-Center" type="button">
                                     <span class="Search-mobile"><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
                                     <span class="Search-desktop"> Recherche</span>
                                 </button>
                             </div>
                         </div>
 
-                        <div class="Filtre-FlexCenter MarginFiltre">
+                        <div  class="MarginFiltre Filtre-Flex-Espace">
                             <div class="FiltreTitre-Div">
                                 <h2>Filtres</h2>
                             </div>
 
-                            <div class="filtre-Icone-Texte Flex-Center">
-                                 <div>
-                                    <i class="fa-solid fa-money-bill-wave fa-lg Filtre-Icone"></i>
-                                </div>
-                                <div class="filtre-Texte">
-                                    <span>Économique</span>
-                                </div>
-                            </div>
+                            <div class="Filtre-FlexCenter">
+                                <div class="Filtre-colone-Icone">
+                                    <div class="filtre-Icone-Texte Flex-Center">
+                                        <div>
+                                            <i class="fa-solid fa-money-bill-wave fa-lg Filtre-Icone"></i>
+                                        </div>
+                                        <div class="filtre-Texte">
+                                            <span>Économique</span>
+                                        </div>
+                                    </div>
 
-                            <div class="filtre-Icone-Texte Flex-Center">
-                                <div>
-                                    <i class="fa-solid fa-child fa-lg Filtre-Icone"></i>
+                                    <div class="filtre-Icone-Texte Flex-Center Margin-clone-Icone">
+                                        <div>
+                                            <i class="fa-solid fa-child fa-lg Filtre-Icone"></i>
+                                        </div>
+                                        <div class="filtre-Texte">
+                                            <span>Familial</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="filtre-Texte">
-                                    <span>Familial</span>
-                                </div>
-                            </div>
-                            
-                            <div class="filtre-Icone-Texte Flex-Center">
-                                <div>
-                                    <i class="fa-solid fa-heart fa-lg Filtre-Icone"></i>
-                                </div>
-                                <div class="filtre-Texte">
-                                    <span>Romantique</span>
-                                </div>
-                            </div>
+                                
+                                <div class="Filtre-colone-Icone">
+                                    <div class="filtre-Icone-Texte Flex-Center">
+                                        <div>
+                                            <i class="fa-solid fa-heart fa-lg Filtre-Icone"></i>
+                                        </div>
+                                        <div class="filtre-Texte">
+                                            <span>Romantique</span>
+                                        </div>
+                                    </div>
 
-                            <div class="filtre-Icone-Texte Flex-Center">
-                                <div>
-                                    <i class="fa-solid fa-dog fa-lg Filtre-Icone"></i>
-                                </div>
-                                <div class="filtre-Texte">
-                                    <span>Animaux autorisés</span>
+                                    <div class="filtre-Icone-Texte Flex-Center Margin-clone-Icone">
+                                        <div>
+                                            <i class="fa-solid fa-dog fa-lg Filtre-Icone"></i>
+                                        </div>
+                                        <div class="filtre-Texte">
+                                            <span>Animaux autorisés</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -118,13 +129,13 @@
             <main>
                 <section>
                     <div class="Boite-Display">
-                        <div id="Boite-Hebergement" class="Flex-Around">
+                        <div id="Boite-Hebergement" class="Flex-Around Bloc-Heberg-Marseil-Mobil">
                             <section>
                                 <div class="Decalage-Titre">
                                     <h3>Hébergements à Marseille</h3>
                                 </div>
 
-                                <div class="Hebergements-Display">
+                                <div class="Hebergements-Display Bloc-Heberg-Marseil-Mobil">
                                     <div class="BoiteSupport-Img">
                                         <div class="Flex-Column-Center">
                                             <img class="img-hebergements" 
@@ -144,7 +155,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="BoiteSupport-Img">
+                                    <div class="BoiteSupport-Img Margin-HerbMarseil-Mobil">
                                         <div>
                                             <img class="img-hebergements" 
                                             src="Images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" 
@@ -163,7 +174,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="BoiteSupport-Img">
+                                    <div class="BoiteSupport-Img Margin-HerbMarseil-Mobil">
                                         <div>
                                             <img class="img-hebergements"
                                             src="Images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" 
@@ -183,7 +194,7 @@
                                     </div>
                                 </div>
 
-                                <div class="Hebergements-Display Decal-deu-Bloc">
+                                <div class="Hebergements-Display Decal-deu-Bloc Bloc-Heberg-Marseil-Mobil">
                                     <div class="BoiteSupport-Img">
                                         <div>
                                             <img class="img-hebergements"
@@ -203,7 +214,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="BoiteSupport-Img">
+                                    <div class="BoiteSupport-Img Margin-HerbMarseil-Mobil">
                                         <div>
                                             <img class="img-hebergements"
                                             src="Images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" 
@@ -222,7 +233,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="BoiteSupport-Img">
+                                    <div class="BoiteSupport-Img Margin-HerbMarseil-Mobil">
                                         <div>
                                             <img class="img-hebergements" 
                                             src="Images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" 
@@ -251,8 +262,8 @@
                         <div id="Boite-Pop">
                             <aside>
                                 <div class="Pop-Flex-Around">
-                                    <h5>Les plus populaires</h5>
-                                    <p><i class="fa-solid fa-chart-line fa-lg colorB-star"></i></p>
+                                    <h5 class="Margin-Titre-Pop">Les plus populaires</h5>
+                                    <p><i class="fa-solid fa-chart-line fa-lg colorB-star Margin-IconeEvol-Pop"></i></p>
                                 </div>
 
                                 <div class="Support-Flex">
@@ -303,7 +314,7 @@
                                         <div>
                                             <h6>Hôtel Bleu et Blanc</h6>
                                             <p class="Position-Texte-Pop">Nuit à partir de 68€</p>
-                                            <div class="Position-Star-Pop">
+                                            <div class="Position-Star-Pop Position-Star3-Pop">
                                                 <i class="fa-solid fa-star colorB-star"></i>
                                                 <i class="fa-solid fa-star colorB-star"></i>
                                                 <i class="fa-solid fa-star colorB-star"></i>
@@ -319,7 +330,7 @@
                 </section>
 
                 <section>
-                    <div>
+                    <div class="Margin-bloc-Activite-Mobil">
                         <div>
                             <h4 class="Titre-Activites">Activités à Marseille</h4>
                         </div>
@@ -336,7 +347,7 @@
                                 </div>
                             </div>
 
-                            <div class="Parent-Div">
+                            <div class="Parent-Div Margin-Activite-Mobil">
                                 <div>
                                     <img class="img-Activites"
                                     src="Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
@@ -347,7 +358,7 @@
                                 </div>
                             </div>
 
-                            <div class="Parent-Div">
+                            <div class="Parent-Div Margin-Activite-Mobil">
                                 <div>
                                     <img class="img-Activites"
                                     src="Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
@@ -358,7 +369,7 @@
                                 </div>
                             </div>
 
-                            <div class="Parent-Div">
+                            <div class="Parent-Div Margin-Activite-Mobil">
                                 <div>
                                     <img class="img-Activites"
                                     src="Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
@@ -376,7 +387,7 @@
 
             <footer>
                 <section class="Footer-Flex">
-                    <div class="Footer-Flex Support-Footer">
+                    <div class="Footer-Flex-Centre Support-Footer">
                         <div>
                             <h4 class="Footer-Titre">A propos</h4>
                             <p><a class="Footer-P" href="#">Fonctionnement du site</a></p>
@@ -384,14 +395,14 @@
                             <p><a class="Footer-P" href="#">Données et confidentialité</a></p>
                         </div>
 
-                        <div>
+                        <div class="Margin-Footer-Mobile">
                             <h4 class="Footer-Titre">Nos hébergements</h4>
                             <p><a class="Footer-P" href="#">Charte qualité</a></p>
                             <p><a class="Footer-P" href="#">Proposer votr hôtel</a></p>
                             <p class="Rien">Rien</p>
                         </div>
 
-                        <div>
+                        <div class="Margin-Footer-Mobile">
                             <h4 class="Footer-Titre">Assistance</h4>
                             <p><a class="Footer-P" href="#">Centre d'aide</a></p>
                             <p><a class="Footer-P" href="#">Nous contacter</a></p>

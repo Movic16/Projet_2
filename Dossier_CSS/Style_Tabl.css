@@ -1,0 +1,142 @@
+/*******Partie general****/
+#Bloc_de_Page
+{
+    max-width: 992px;
+    margin: auto;
+}
+
+.footer
+{
+   max-width: 992px;
+}
+
+/*******Partie Navi****/
+
+
+/*******Partie Recherche****/
+.Search-mobile
+{
+    display: none;
+}
+
+/*******Partie Filtre****/
+.Filtre-colone-Icone, .Margin-clone-Icone
+{
+    display: none;
+}
+
+/*******Partie Populaire****/
+.Boite-Display
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+#Boite-Pop
+{
+    height: 275px;
+    width: 880px;
+    margin-top: 50px;
+}
+
+.Pop-Flex-Around
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.Margin-Titre-Pop
+{
+    margin-left: 40px;
+}
+
+.Margin-IconeEvol-Pop
+{
+    margin-right: 40px;
+}
+
+.Support-Flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -15px;
+}
+
+.BoiteSupport-Pop-Img > div:nth-child(1)
+{
+    width: 40%;
+}
+
+.BoiteSupport-Pop-Img > div:nth-child(2)
+{
+    width: 60%;
+    margin-left: 5px;
+}
+
+.BoiteSupport-Pop-Img
+{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-hebergements-Pop
+{
+    object-fit: cover;
+    width: 90%;
+}
+
+.Position-Star-Pop
+{
+    margin-top: 50px;
+}
+
+.Position-Star2-Pop
+{
+    margin-top: 50px;
+}
+
+.Position-Star3-Pop
+{
+    margin-top: 70px;
+}
+
+.Pop-margin
+{
+    margin-top: 0px;
+}
+
+.Decal-Afficher
+{
+    margin-left: 40px;
+}
+
+/*******Partie Activites****/
+.Parent-Div
+{
+    max-width:  20%;
+}
+
+.Parent-Div > div:nth-child(1)
+{
+    width:  250px;
+}
+
+.img-Activites
+{
+    object-fit: cover;
+    width: 80%;
+    height: 250px;
+}
+
+.Support-Img-Activite
+{
+    width: 205px;
+    position: absolute;
+    margin-left: 1px;
+}

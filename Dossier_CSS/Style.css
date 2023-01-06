@@ -9,6 +9,10 @@ html, body
     width: 1400px;
     margin: auto;
 }
+.footer
+{
+    width: 1400px;
+}
 
 /*******Partie Header (en-tete)*******/
 /*********Partie Nav********/
@@ -71,18 +75,6 @@ html, body
 {
     width: 135px;
     height: 50px;
-}
-
-.Bord-Lien-Menu:active
-{
-    border-top: 1px solid #0065FC;
-    cursor: pointer;
-}
-
-.Bord-Lien-Menu a:hover
-{
-    background: linear-gradient(to top, rgba(177, 29, 214, 0.5) 0%, 
-    rgba(177, 29, 214, 0.5) 10%, transparent 10.01%)
 }
 
 /*********Partie Recherche et Titre niveau1********/
@@ -148,6 +140,12 @@ html, body
     align-items: center;
 }
 
+.Filtre-Flex-Espace
+{
+    display: flex;
+    align-items: center;
+}
+
 .MarginFiltre
 {
     margin-top: 30px;
@@ -183,9 +181,9 @@ html, body
     font-weight: bold;
 }
 
-.h2
+h2
 {
-    font-size: 18px;
+    font-size: 23px;
     line-height: 26px;
     color: #000000;
     font-weight: bold;
@@ -327,7 +325,7 @@ html, body
 
 h5
 {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 22px;
     line-height: 30px;
     color: #000000;
@@ -426,6 +424,7 @@ h6
     height: 440px;
     border: 5px solid #FFFFFF;
     border-radius: 20px;
+    box-shadow: 2px 6px 6px #F2F2F2;
 }
 
 .Activites-Flex
@@ -481,6 +480,13 @@ h6
     align-items: center;
 }
 
+.Footer-Flex-Centre
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .Footer-Titre
 {
     font-weight: bold;
@@ -513,3 +519,29 @@ h6
 }
 
 /*****Partie responsive ordinateur*********/
+
+@media screen and (max-width: 1400px) and (min-width: 991px)
+{
+    .Search-mobile
+    {
+        display: none;
+    }
+
+    .Bord-Lien-Menu:active
+    {
+        border-top: 1px solid #0065FC;
+        cursor: pointer;
+    }
+    
+    .Bord-Lien-Menu a:hover
+    {
+        background: linear-gradient(to top, rgba(177, 29, 214, 0.5) 0%, 
+        rgba(177, 29, 214, 0.5) 10%, transparent 10.01%)
+    }
+
+    .Filtre-colone-Icone, .Margin-clone-Icone
+    {
+        display: none;
+    }
+
+}

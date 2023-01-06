@@ -1,0 +1,269 @@
+/*******Partie general****/
+#Bloc_de_Page
+{
+    max-width: 768px;
+    margin: auto;
+}
+
+.footer
+{
+    width: 768px;
+}
+
+/*******Partie Navi****/
+#Flex-Between
+{
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logo, #Flex-Around
+{
+    width: 100%;
+}
+
+.CadreBord-Lien-Menu
+{
+    width: 50%;
+    height: 50%;
+    height: 70px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #F2F2F2;
+}
+
+.Text-Nav-Mobil
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Margin-Navi-Mobil
+{
+    margin-top: 50px;
+}
+
+#Logo img
+{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.Bord-Lien-Menu:active
+{
+    border-bottom: 2px solid #0065FC;
+    cursor: pointer;
+
+}
+
+/*******Partie Zone de recherche****/
+.Titre-H1_P
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Zone-Recherch-Centre
+{
+    max-width: 768px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Bord-ZoneSearch
+{
+    width: 70%;
+}
+
+.ButtonSearch
+{
+    width: 70px;
+}
+
+.Search-desktop
+{
+    display: none;
+}
+
+/*******Partie Filtre****/
+.Filtre-FlexCenter
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Filtre-colone-Icone
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Margin-clone-Icone
+{
+    margin-top: 20px;
+}
+
+.Filtre-Flex-Espace
+{
+    justify-content: center;
+}
+
+/*******Partie Bloc hebergement****/
+.Boite-Display
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+/*******Partie hebergement a marseille****/
+.Bloc-Heberg-Marseil-Mobil
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Boite-Hebergement
+{
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    background: #ffff;
+}
+
+.Decalage-Titre
+{
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.BoiteSupport-Img
+{
+    width: 340px;
+    height: 200px;
+    box-shadow: 6px 6px 6px 6px #F2F2F2;
+    border: 1px solid #FFFFFF;
+}
+
+.Margin-HerbMarseil-Mobil
+{
+    margin-top: 25px;
+}
+
+.Decal-Afficher
+{
+    display: none;
+}
+
+.Titre-sous-Img
+{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.Decalage-Titre
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*******Partie Populaire****/
+#Boite-Pop
+{
+    width: 450px;
+    border-radius: 0px;
+}
+
+/*******Partie Activite****/
+.Activites-Flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Margin-bloc-Activite-Mobil
+{
+    margin-top: 1520px;
+}
+
+.Titre-Activites
+{
+    margin-top: 0px;
+}
+
+.Margin-bloc-Activite-Mobil > div:nth-child(1)
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 170px;
+}
+
+.img-Activites
+{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.Margin-Activite-Mobil
+{
+    margin-top: 20px;
+}
+
+.Support-Img-Activite
+{
+    width: 349px;
+    margin-left: 3px;
+}
+
+/*******Partie Footer****/
+.Footer-Flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Footer-Flex-Centre
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Support-Footer
+{
+    width: 450px;
+    height: 530px;
+}
+
+.Margin-Footer-Mobile
+{
+    margin-right: 25px;
+}
+
+.Footer-Flex-Centre > div:nth-child(3)
+{
+    margin-right: 75px;
+}
+
+.Rien
+{
+    display: none;
+}
