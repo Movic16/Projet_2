@@ -11,7 +11,11 @@
 }
 
 /*******Partie Navi****/
-
+.Bord-Lien-Menu:active
+    {
+        border-top: 1px solid #0065FC;
+        cursor: pointer;
+    }
 
 /*******Partie Recherche****/
 .Search-mobile
@@ -20,9 +24,20 @@
 }
 
 /*******Partie Filtre****/
-.Filtre-colone-Icone, .Margin-clone-Icone
+/* .Filtre-colone-Icone, .Margin-clone-Icone
 {
-    display: none;
+    display: ;
+} */
+
+.Filtre-colone-Icone
+{
+    display: flex;
+    flex-direction: row;
+}
+/*******Partie Heberg****/
+.Decalage-Titre
+{
+    margin-left: 40px;
 }
 
 /*******Partie Populaire****/
@@ -64,7 +79,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    margin-top: -15px;
+    margin-top: 15px;
 }
 
 .BoiteSupport-Pop-Img > div:nth-child(1)

@@ -1,8 +1,17 @@
 /*******Partie general****/
 #Bloc_de_Page
 {
-    max-width: 768px;
+    width: 100%;
     margin: auto;
+}
+#Section-Hearder
+{
+    margin-left: 25px;
+}
+
+#Bloc-Main
+{
+    margin-left: 25px;
 }
 
 .footer
@@ -13,7 +22,7 @@
 /*******Partie Navi****/
 #Flex-Between
 {
-    max-width: 768px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,7 +44,7 @@
 
 .Text-Nav-Mobil
 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -46,9 +55,9 @@
 
 #Logo img
 {
-    width: 70%;
+    /* width: 70%;
     height: 70%;
-    object-fit: cover;
+    object-fit: cover; */
     margin-top: 20px;
 }
 
@@ -70,7 +79,7 @@
 
 .Zone-Recherch-Centre
 {
-    max-width: 768px;
+    max-width: 100%;
     display: flex;
     justify-content:flex-end;
     align-items: center;
@@ -79,7 +88,7 @@
 
 .Bord-ZoneSearch
 {
-    width: 70%;
+   width: 90%;
 }
 
 .ButtonSearch
@@ -113,8 +122,27 @@
 
 .Filtre-Flex-Espace
 {
-    justify-content: center;
+    display: flex;
+    /* justify-content: left; */
+    flex-direction: column;
 }
+
+.FiltreTitre-Div
+{
+    width: 90%;
+}
+
+.filtre-Icone-Texte
+{
+    margin-right: 10px;
+}
+
+.Filtre-Icone
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 
 /*******Partie Bloc hebergement****/
 .Boite-Display
@@ -146,12 +174,21 @@
 {
     margin-left: 0px;
     display: flex;
-    align-items: center;
+    align-items:flex-end;
+}
+
+.img-hebergements
+{
+    object-fit: cover;
+    width: 96%;
+    height: 120px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .BoiteSupport-Img
 {
-    width: 340px;
+    width: 350px;
     height: 200px;
     box-shadow: 6px 6px 6px 6px #F2F2F2;
     border: 1px solid #FFFFFF;
@@ -186,13 +223,34 @@
     border-radius: 0px;
 }
 
+.Support-Flex
+{
+   margin-left: 25px;
+}
+
+.BoiteSupport-Pop-Img
+{
+    width: 370px;
+}
+
+.BoiteSupport-Pop-Img > div:nth-child(1)
+{
+    width: 50%;
+}
+
+.BoiteSupport-Pop-Img > div:nth-child(2)
+{
+    width: 60%;
+}
+
 /*******Partie Activite****/
 .Activites-Flex
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* margin-left: 15px; */
 }
 
 .Margin-bloc-Activite-Mobil
@@ -200,9 +258,10 @@
     margin-top: 1520px;
 }
 
-.Titre-Activites
+.Titre-H3-Activites
 {
     margin-top: 0px;
+    margin-left: 20px;
 }
 
 .Margin-bloc-Activite-Mobil > div:nth-child(1)
@@ -211,24 +270,40 @@
     align-items: center;
     justify-content: center;
     margin-right: 170px;
+    width: 35%;
 }
 
 .img-Activites
 {
     object-fit: cover;
     width: 100%;
-    height: 200px;
+    height: 190px;
+}
+.Parent-Div > div:nth-child(1)
+{
+    width: 345px;
+}
+
+.Parent-Div > div:nth-child(2)
+{
+    height: 55px;
+}
+
+.Support-Img-Activite
+{
+    width: 350px;
+    margin-left: 3px;
+}
+
+.Parent-Div
+{
+    width: 90%;
+    margin-right: 20px;
 }
 
 .Margin-Activite-Mobil
 {
     margin-top: 20px;
-}
-
-.Support-Img-Activite
-{
-    width: 349px;
-    margin-left: 3px;
 }
 
 /*******Partie Footer****/

@@ -181,7 +181,7 @@ html, body
     font-weight: bold;
 }
 
-h2
+.Titre-H2-Filtres
 {
     font-size: 23px;
     line-height: 26px;
@@ -257,16 +257,21 @@ h2
     padding-bottom: 10px;
 }
 
-.Decalage-Titre
+.Titre-H3-Hebergement-Mars
 {
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     color: #000000;
 }
 
-.Titre-sous-Img
+.Decalage-Titre
+{
+    margin-left: 40px;
+}
+
+.Titre-H4-Hb-Mars-sous-Img
 {
     font-weight: bolder;
     font-size: 16px;
@@ -323,7 +328,7 @@ h2
     align-items: center;
 }
 
-h5
+.Titre-H3-Plus-Populaires
 {
     font-weight: bold;
     font-size: 22px;
@@ -375,7 +380,7 @@ h5
     border-radius: 20px 0px 0px 20px;
 }
 
-h6
+.Titre-H4-Sous-Img-Pop
 {
     font-weight: bolder;
     font-size: 16px;
@@ -394,7 +399,7 @@ h6
 
 .Position-Texte-Pop
 {
-    margin-top: -30px;
+    margin-top: -15px;
 }
 
 .Position-Star-Pop
@@ -408,7 +413,7 @@ h6
 }
 
 /*********Partie Activites********/
-.Titre-Activites
+.Titre-H3-Activites
 {
     font-weight: bold;
     font-size: 22px;
@@ -451,9 +456,9 @@ h6
 
 .Support-Img-Activite
 {
-    width: 313px;
+    width: 320px;
     height: 100%;
-    margin-left: 4.5px;
+    margin-left: 3px;
     margin-top: -60px;
     padding-bottom: 0px;
     background: #FFFFFF;
@@ -539,9 +544,15 @@ h6
         rgba(177, 29, 214, 0.5) 10%, transparent 10.01%)
     }
 
-    .Filtre-colone-Icone, .Margin-clone-Icone
+    /* .Filtre-colone-Icone, .Margin-clone-Icone
     {
         display: none;
+    } */
+
+    .Filtre-colone-Icone
+    {
+        display: flex;
+        flex-direction: row;
     }
 
 }
