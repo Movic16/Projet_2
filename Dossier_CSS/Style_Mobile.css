@@ -4,6 +4,7 @@
     width: 100%;
     margin: auto;
 }
+/**
 #Section-Hearder
 {
     margin-left: 25px;
@@ -13,10 +14,10 @@
 {
     margin-left: 25px;
 }
-
+*/
 .footer
 {
-    width: 768px;
+    width: 100%;
 }
 
 /*******Partie Navi****/
@@ -36,7 +37,7 @@
 .CadreBord-Lien-Menu
 {
     width: 50%;
-    height: 50%;
+    /*height: 50%;*/
     height: 70px;
     margin-bottom: 10px;
     border-bottom: 3px solid #F2F2F2;
@@ -65,16 +66,22 @@
 {
     border-bottom: 2px solid #0065FC;
     cursor: pointer;
-
 }
 
 /*******Partie Zone de recherche****/
 .Titre-H1_P
 {
+    width: 90%;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.Margin-H1-Titre
+{
+    margin-left: 35px;
 }
 
 .Zone-Recherch-Centre
@@ -125,6 +132,8 @@
     display: flex;
     /* justify-content: left; */
     flex-direction: column;
+    width: 90%;
+    margin-left: 25px;
 }
 
 .FiltreTitre-Div
@@ -143,6 +152,11 @@
     padding-left: 10px;
 }
 
+.MarginInfo
+{
+    width: 85%;
+    margin-left: 25px;
+}
 
 /*******Partie Bloc hebergement****/
 .Boite-Display
@@ -188,7 +202,7 @@
 
 .BoiteSupport-Img
 {
-    width: 350px;
+    width: 340px;
     height: 200px;
     box-shadow: 6px 6px 6px 6px #F2F2F2;
     border: 1px solid #FFFFFF;
@@ -219,18 +233,19 @@
 /*******Partie Populaire****/
 #Boite-Pop
 {
-    width: 450px;
+    width: 100%;
     border-radius: 0px;
+    margin-right: 0px;
 }
 
 .Support-Flex
 {
-   margin-left: 25px;
+   margin-left: 0px;
 }
 
 .BoiteSupport-Pop-Img
 {
-    width: 370px;
+    width: 320px;
 }
 
 .BoiteSupport-Pop-Img > div:nth-child(1)
@@ -241,6 +256,11 @@
 .BoiteSupport-Pop-Img > div:nth-child(2)
 {
     width: 60%;
+}
+
+.Position-Star1-Pop
+{
+    margin-top: 40px;
 }
 
 /*******Partie Activite****/
@@ -256,6 +276,7 @@
 .Margin-bloc-Activite-Mobil
 {
     margin-top: 1520px;
+    margin-left: 10px;
 }
 
 .Titre-H3-Activites
@@ -324,7 +345,7 @@
 
 .Support-Footer
 {
-    width: 450px;
+    width: 100%;
     height: 530px;
 }
 
