@@ -12,10 +12,15 @@
 
 /*******Partie Navi****/
 .Bord-Lien-Menu:active
-    {
-        border-top: 1px solid #0065FC;
-        cursor: pointer;
-    }
+{
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+
+#Flex-Between 
+{
+    width: 100%;
+}
 
 /*******Partie Recherche****/
 .Search-mobile
@@ -40,6 +45,11 @@
     margin-left: 40px;
 }
 
+#Boite-Hebergement
+{
+    width: 100%;
+}
+
 /*******Partie Populaire****/
 .Boite-Display
 {
@@ -51,7 +61,7 @@
 #Boite-Pop
 {
     height: 275px;
-    width: 880px;
+    width: 100%;
     margin-top: 50px;
 }
 
@@ -154,4 +164,9 @@
     width: 205px;
     position: absolute;
     margin-left: 1px;
+}
+
+.Activites-Flex
+{
+    width: 100%;
 }
