@@ -1,13 +1,18 @@
 /*******Partie general****/
 #Bloc_de_Page
 {
-    max-width: 992px;
+    max-width: 100%;
     margin: auto;
+}
+
+html, body
+{
+    overflow-x: hidden;
 }
 
 .footer
 {
-   max-width: 992px;
+   max-width: 100%;
 }
 
 /*******Partie Navi****/
@@ -19,7 +24,7 @@
 
 #Flex-Between 
 {
-    width: 100%;
+    width: 80%;
 }
 
 /*******Partie Recherche****/
@@ -39,6 +44,11 @@
     display: flex;
     flex-direction: row;
 }
+
+.Filtre-Flex-Espace
+{
+    width: 80%;
+}
 /*******Partie Heberg****/
 .Decalage-Titre
 {
@@ -47,7 +57,7 @@
 
 #Boite-Hebergement
 {
-    width: 100%;
+    width: 80%;
 }
 
 /*******Partie Populaire****/
@@ -61,7 +71,7 @@
 #Boite-Pop
 {
     height: 275px;
-    width: 100%;
+    width: 80%;
     margin-top: 50px;
 }
 
@@ -118,17 +128,17 @@
 
 .Position-Star-Pop
 {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .Position-Star2-Pop
 {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .Position-Star3-Pop
 {
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .Pop-margin
@@ -144,29 +154,35 @@
 /*******Partie Activites****/
 .Parent-Div
 {
-    max-width:  20%;
+    max-width:  50%;
 }
 
 .Parent-Div > div:nth-child(1)
 {
-    width:  250px;
+    width:  170px;
 }
 
 .img-Activites
 {
     object-fit: cover;
-    width: 80%;
+    width: 100%;
     height: 250px;
 }
 
 .Support-Img-Activite
 {
-    width: 205px;
+    width: 175px;
     position: absolute;
     margin-left: 1px;
 }
 
 .Activites-Flex
 {
-    width: 100%;
+    width: 80%;
+}
+
+/*******Partie Footer****/
+.Footer-Flex
+{
+   width: 80%;
 }

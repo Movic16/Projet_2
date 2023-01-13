@@ -91,7 +91,6 @@ html, body
 
 .Zone-Recherch-Centre
 {
-    max-width: 100%;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -101,7 +100,6 @@ html, body
 .Bord-ZoneSearch
 {
    width: 100%;
-   margin-left: 15px;
 }
 
 .ButtonSearch
@@ -112,6 +110,16 @@ html, body
 .Search-desktop
 {
     display: none;
+}
+
+/* .Search-mobile
+{
+    display: flex;
+} */
+
+.Bord-Search
+{
+    width: 185px;
 }
 
 /*******Partie Filtre****/
@@ -315,7 +323,7 @@ html, body
 .Parent-Div > div:nth-child(2)
 {
     height: 55px;
-    width: 87%;
+    width: 305px;
 }
 
 .Support-Img-Activite
@@ -326,7 +334,7 @@ html, body
 
 .Parent-Div
 {
-    width: 90%;
+    width: 300px;
     margin-right: 20px;
 }
 
