@@ -49,6 +49,17 @@ html, body
 {
     width: 80%;
 }
+
+.FiltreTitre-Div
+{
+    margin-right: 15px;
+}
+
+.filtre-Icone-Texte
+{
+    margin-right: 15px;
+}
+
 /*******Partie Heberg****/
 .Decalage-Titre
 {
