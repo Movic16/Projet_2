@@ -24,7 +24,7 @@ html, body
 
 #Flex-Between 
 {
-    width: 80%;
+    width: 100%;
 }
 
 /*******Partie Recherche****/
@@ -47,7 +47,7 @@ html, body
 
 .Filtre-Flex-Espace
 {
-    width: 80%;
+    width: 100%;
 }
 
 .FiltreTitre-Div
@@ -68,7 +68,7 @@ html, body
 
 #Boite-Hebergement
 {
-    width: 80%;
+    width: 100%;
 }
 
 /*******Partie Populaire****/
@@ -82,7 +82,7 @@ html, body
 #Boite-Pop
 {
     height: 275px;
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
 }
 
@@ -189,11 +189,12 @@ html, body
 
 .Activites-Flex
 {
-    width: 80%;
+    width: 100%;
+    margin-left: 1.5%;
 }
 
 /*******Partie Footer****/
 .Footer-Flex
 {
-   width: 80%;
+   width: 100%;
 }
